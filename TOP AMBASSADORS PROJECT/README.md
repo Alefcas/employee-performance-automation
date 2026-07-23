@@ -1,7 +1,7 @@
 # TOP AMBASSADORS — FC locale (Demo de Portfólio)
 
 Sistema de automação em **Python** que ranqueia "Embaixadores" de um armazém de
-fulfillment com base em **Qualidade** (DPMO) e **Produtividade** (Rate na LC).
+fulfillment com base em **Qualidade** (DPMO) e **Produtividade**.
 O programa extrai dados de sistemas internos, aplica regras de negócio, gera um
 **ranking**, um **e-mail HTML** de reconhecimento e **cartas de reconhecimento** em PDF.
 
@@ -24,7 +24,7 @@ Os dados fictícios são montados para exibir todos os cenários de classificaç
 
 Cada embaixador pertence a um dos dois turnos (`Turno Dia` / `Turno Noite`).
 
-> O e-mail é **apenas gerado e mostrado no terminal** (não é enviado pelo Outlook)
+> O e-mail é **apenas gerado e mostrado no terminal**
 > e sai **sem fotos** — os cards usam as iniciais do embaixador. Ao final, o
 > terminal oferece: `ENTER = abrir HTML  |  N = apenas fechar`.
 
@@ -34,7 +34,7 @@ Cada embaixador pertence a um dos dois turnos (`Turno Dia` / `Turno Noite`).
 
 - **Automação de navegador** com Selenium/Firefox (abre o site, aguarda e detecta o download).
 - **ETL** com pandas/openpyxl: leitura de planilhas com layouts irregulares, detecção
-  automática de cabeçalho, cruzamento entre fontes, deduplicação por LC Level.
+  automática de cabeçalho, cruzamento entre fontes.
 - **Regras de negócio** encadeadas (filtros de opportunities, horas mínimas, número de
   associados por embaixador, prioridade de Qualidade sobre Produtividade, casos inválidos).
 - **Geração de artefatos**: ranking em Excel formatado, e-mail HTML e cartas em PDF (Pillow).
@@ -44,9 +44,9 @@ Cada embaixador pertence a um dos dois turnos (`Turno Dia` / `Turno Noite`).
 ## Fluxo (modo completo)
 
 1. **Employee Roster** → nomes dos funcionários e turno (`roster.html`)
-2. **Onboarding (SharePoint)** → planilha `associados.xlsx` (`onboarding.html`)
-3. **QuickSight** → planilha `dados_funcionarios.xlsx` (`quicksight.html`)
-4. **ATLAS** → defeitos por processo, para o cálculo de DPMO (`atlas.html`).
+2. **Onboarding** → planilha `associados.xlsx` (`onboarding.html`)
+3. **Dashboard** → planilha `dados_funcionarios.xlsx` (`quicksight.html`)
+4. **Site de Qualidade** → defeitos por processo, para o cálculo de DPMO (`atlas.html`).
    Na aba **Raw Reports** o usuário clica manualmente na aba e em cada processo,
    dando ENTER no programa após cada download.
 5. Classificação **TOP / BOTTOM / INVÁLIDO** e geração de ranking, e-mail e cartas.
@@ -72,8 +72,7 @@ abrir um dos sites "Site of Alefcas" no Firefox, clique no botão de **download*
 página e volte ao programa — ele detecta o arquivo baixado e segue o fluxo exatamente
 como faria com os sites reais.
 
-> Dica: o `ExtracaoATLAS.xlsx` fictício já vem incluído, então a etapa do ATLAS
-> pode ser reaproveitada sem depender do navegador.
+> Dica: o `ExtracaoATLAS.xlsx` fictício já vem incluído, então pode ignorar essa etapa.
 
 ## Estrutura
 
