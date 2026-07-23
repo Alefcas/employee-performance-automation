@@ -25,7 +25,7 @@
 
 # 🇺🇸 English
 
-# 📖 The Story Behind This Project
+#  The Story Behind This Project
 
 During my internship in the logistics area at **Amazon**, I had the opportunity to work closely with operational workflows related to employee performance evaluation and recognition.
 
@@ -116,7 +116,7 @@ Artificial Intelligence accelerated the implementation while I remained responsi
 
 ---
 
-# 🏗 Project Architecture
+#  Project Architecture
 
 ```text
 Employee Data
@@ -185,7 +185,7 @@ TOP AMBASSADORS PROJECT/
 
 ---
 
-# ▶ Technical Documentation
+#  Technical Documentation
 
 The complete documentation describing how to install, configure and execute the application is available inside the project folder.
 
@@ -193,7 +193,7 @@ The complete documentation describing how to install, configure and execute the 
 
 ---
 
-# 📚 What I Learned
+#  What I Learned
 
 Developing this project strengthened my knowledge in:
 
@@ -244,45 +244,52 @@ This repository represents one of the largest projects I've developed so far and
 
 #  A História por Trás deste Projeto
 
-Durante minha experiência como Jovem Aprendiz na área de logística da **Amazon**, tive a oportunidade de participar de processos operacionais relacionados à avaliação de desempenho e reconhecimento de colaboradores.
+Durante minha experiência como **Jovem Aprendiz na área de Logística da Amazon**, tive a oportunidade de participar diretamente de processos operacionais relacionados à avaliação de desempenho e ao reconhecimento de colaboradores.
 
-Em cada ciclo era necessário consultar diferentes sistemas, processar planilhas, aplicar regras de negócio, gerar rankings, preparar cartas de reconhecimento e montar comunicações por e-mail.
+Em cada ciclo, era necessário acessar diferentes sistemas, processar planilhas, aplicar regras de negócio, gerar rankings, preparar cartas de reconhecimento e criar comunicações por e-mail.
 
-Embora o fluxo fosse bem definido, grande parte dessas atividades era repetitiva e consumia muito tempo.
+Embora o fluxo de trabalho fosse bem definido, muitas dessas atividades eram repetitivas, demoradas e exigiam bastante atenção aos detalhes.
 
-À medida que meu interesse por desenvolvimento de software aumentava, comecei a me perguntar:
+À medida que meu interesse por desenvolvimento de software crescia, comecei a me fazer uma pergunta:
 
 > **"E se todo esse processo pudesse ser automatizado?"**
 
-Foi dessa pergunta que nasceu este projeto.
+Foi dessa ideia que nasceu este projeto.
+
+Ao longo do desenvolvimento, procurei transformar um fluxo operacional complexo em uma aplicação capaz de executar tarefas que antes eram realizadas manualmente, reduzindo tempo de execução, minimizando erros e tornando todo o processo muito mais eficiente.
+
+Este repositório representa essa jornada e demonstra como a tecnologia pode ser utilizada para otimizar processos de negócio através da automação.
 
 ---
 
-#  Objetivo
+# Objetivo
 
-O objetivo deste projeto foi recriar esse fluxo operacional em uma aplicação desktop capaz de automatizar tarefas repetitivas.
+O objetivo deste projeto foi recriar um fluxo operacional em uma aplicação desktop capaz de automatizar tarefas repetitivas e centralizar todo o processo em uma única ferramenta.
 
 A aplicação é responsável por:
 
--  Processar dados de desempenho
--  Gerar rankings de colaboradores
--  Criar relatórios
+-  Processar dados de desempenho dos colaboradores
+-  Gerar rankings automaticamente
+-  Criar relatórios organizados
 -  Gerar e-mails em HTML
 -  Produzir cartas de reconhecimento
 -  Aplicar regras de negócio automaticamente
+-  Centralizar todas as etapas do processo em uma única aplicação
 
 ---
 
-#  Versão de Portfólio
+#  Versão para Portfólio
 
-Este repositório contém uma versão independente criada exclusivamente para fins de portfólio.
+Este repositório contém uma versão independente desenvolvida exclusivamente para fins de portfólio.
 
-Para preservar a confidencialidade:
+Para preservar a confidencialidade e respeitar as informações da empresa onde surgiu a inspiração para este projeto:
 
-- ✅ Todos os colaboradores foram substituídos por dados fictícios.
-- ✅ Os sistemas internos foram substituídos por páginas HTML simuladas.
+- ✅ Todos os dados de colaboradores foram substituídos por informações fictícias.
+- ✅ Sistemas internos foram substituídos por páginas HTML simuladas.
 - ✅ Recursos específicos da empresa foram removidos.
-- ✅ Nenhuma informação confidencial está presente.
+- ✅ Nenhuma informação confidencial ou proprietária está presente neste repositório.
+
+O objetivo desta versão é demonstrar a arquitetura da solução, a lógica de negócio e as técnicas de automação utilizadas durante o desenvolvimento.
 
 ---
 
@@ -290,46 +297,52 @@ Para preservar a confidencialidade:
 
 Este projeto foi desenvolvido utilizando um fluxo de trabalho assistido por Inteligência Artificial.
 
-Em vez de escrever manualmente cada linha de código, concentrei meus esforços em:
+Ao invés de escrever manualmente todas as linhas de código, utilizei a IA como uma ferramenta para acelerar a implementação da solução.
 
-- Arquitetura de software
-- Regras de negócio
-- Definição do fluxo da aplicação
-- Engenharia de prompts
-- Especificação das funcionalidades
-- Testes
-- Correção de erros
-- Refinamento contínuo
+Minha principal responsabilidade durante o desenvolvimento foi:
 
-A Inteligência Artificial acelerou a implementação, enquanto todas as decisões técnicas, validações e refinamentos permaneceram sob minha responsabilidade.
+- Definir a arquitetura da aplicação
+- Estruturar os módulos do sistema
+- Projetar o fluxo completo do processo
+- Definir as regras de negócio
+- Criar prompts para geração de código
+- Validar toda a lógica implementada
+- Testar funcionalidades
+- Corrigir erros encontrados
+- Refinar continuamente a aplicação
+
+A Inteligência Artificial foi utilizada como aceleradora de desenvolvimento, enquanto todas as decisões técnicas, validações e refinamentos permaneceram sob minha responsabilidade.
+
+Acredito que utilizar IA de forma estratégica é uma competência cada vez mais importante no desenvolvimento moderno de software.
 
 ---
 
 #  Principais Funcionalidades
 
 - Processamento automático de relatórios
-- Aplicação de regras de negócio
+- Aplicação automática de regras de negócio
 - Classificação de colaboradores
 - Geração de rankings
-- Dashboard
-- Geração de e-mails HTML
+- Dashboard administrativo
+- Geração automática de e-mails em HTML
 - Cartas de reconhecimento em PDF
-- Relatórios em Excel
+- Exportação de relatórios em Excel
 - Configuração através de arquivos INI
+- Organização automática do histórico de execuções
 
 ---
 
-# 🛠 Tecnologias
+# 🛠 Tecnologias Utilizadas
 
 | Categoria | Tecnologias |
 |-----------|--------------|
 | Linguagem | Python |
 | Automação | Selenium |
 | Processamento de Dados | Pandas, OpenPyXL |
-| Interface | Tkinter |
+| Interface Gráfica | Tkinter |
 | Configuração | ConfigParser |
-| Imagens | Pillow |
-| Relatórios | HTML, Excel, PDF |
+| Manipulação de Imagens | Pillow |
+| Relatórios | HTML, Excel e PDF |
 
 ---
 
@@ -337,26 +350,130 @@ A Inteligência Artificial acelerou a implementação, enquanto todas as decisõ
 
 ```text
 Dados dos Colaboradores
-        │
-        ▼
-Processamento
-        │
-        ▼
-Regras de Negócio
-        │
-        ▼
-Classificação
-        │
-        ▼
-Ranking
-        │
-        ▼
-Geração de Saídas
+            │
+            ▼
+Extração das Informações
+            │
+            ▼
+Processamento dos Dados
+            │
+            ▼
+Aplicação das Regras de Negócio
+            │
+            ▼
+Classificação dos Colaboradores
+            │
+            ▼
+Geração do Ranking
+            │
+            ▼
+Geração dos Resultados
         ├── Relatórios Excel
         ├── E-mails HTML
-        └── Cartas em PDF
+        └── Cartas de Reconhecimento em PDF
 ```
 
 ---
 
-## As demais seções seguem exatamente a versão em inglês, apenas traduzidas.
+# Capturas de Tela
+
+## Dashboard
+
+*(Adicionar Futuramente)*
+
+---
+
+## Ranking
+
+*(Adicionar Futuramente)*
+
+---
+
+## E-mail Gerado
+
+*(Adicionar Futuramente)*
+
+---
+
+## Carta de Reconhecimento
+
+*(Adicionar Futuramente)*
+
+---
+
+# 📂 Estrutura do Repositório
+
+```text
+README.md
+
+TOP AMBASSADORS PROJECT/
+
+├── README.md          ← Documentação Técnica
+├── 1. HISTÓRICO
+├── 2. RECURSOS
+├── SITE OF ALEFCAS
+├── requirements.txt
+└── Arquivos do Projeto
+```
+
+---
+
+#  Documentação Técnica
+
+Toda a documentação referente à instalação, configuração e execução da aplicação encontra-se disponível dentro da pasta principal do projeto.
+
+ **TOP AMBASSADORS PROJECT/README.md**
+
+---
+
+#  O Que Aprendi
+
+O desenvolvimento deste projeto fortaleceu significativamente meus conhecimentos em:
+
+- Desenvolvimento com Python
+- Automação de processos
+- Arquitetura de Software
+- Estruturação de aplicações modulares
+- Modelagem de regras de negócio
+- Manipulação e processamento de dados
+- Engenharia de Prompts
+- Desenvolvimento assistido por Inteligência Artificial
+- Testes e depuração
+- Organização de projetos de grande porte
+
+Além do aspecto técnico, este projeto reforçou a importância de compreender profundamente o problema antes de pensar na implementação da solução.
+
+---
+
+#  Próximas Melhorias
+
+Algumas funcionalidades planejadas para futuras versões:
+
+- Integração com banco de dados
+- API REST
+- Sistema de autenticação
+- Containerização com Docker
+- Testes automatizados
+- Pipeline de CI/CD
+- Interface mais moderna
+- Dashboard Web
+
+---
+
+#  Sobre Mim
+
+Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** e estou direcionando minha carreira para desenvolvimento de software.
+
+Tenho grande interesse por automação, análise de dados, engenharia de software e Inteligência Artificial aplicada ao desenvolvimento.
+
+Este repositório representa um dos projetos mais completos que desenvolvi até o momento e demonstra não apenas minhas habilidades técnicas, mas também minha capacidade de analisar problemas reais, estruturar soluções e utilizar ferramentas modernas para acelerar o desenvolvimento.
+
+---
+
+<div align="center">
+
+### ⭐ Obrigado por visitar este projeto!
+
+Se este projeto despertou seu interesse, fique à vontade para explorar o código, a documentação técnica e acompanhar sua evolução.
+
+</div>
