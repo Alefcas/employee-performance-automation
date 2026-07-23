@@ -13,7 +13,7 @@
 
 ---
 
-## 🌎 Choose your language / Escolha seu idioma
+## Choose your language / Escolha seu idioma
 
 ### 🇺🇸 [English](#-english) • 🇧🇷 [Português](#-português)
 
@@ -41,22 +41,22 @@ That question became the starting point of this project.
 
 ---
 
-# 🎯 Purpose
+# Purpose
 
 The objective of this project was to recreate an operational workflow as a desktop application capable of automating repetitive business tasks.
 
 The application is responsible for:
 
-- 📊 Processing performance data
-- 🏆 Generating employee rankings
-- 📑 Creating reports
-- 📧 Preparing HTML emails
-- 📨 Generating recognition letters
-- ⚙️ Applying business rules automatically
+-  Processing performance data
+-  Generating employee rankings
+-  Creating reports
+-  Preparing HTML emails
+-  Generating recognition letters
+-  Applying business rules automatically
 
 ---
 
-# 🔒 Portfolio Version
+#  Portfolio Version
 
 This repository contains an independent version created exclusively for portfolio purposes.
 
@@ -69,7 +69,7 @@ To preserve confidentiality:
 
 ---
 
-# 👨‍💻 My Contribution
+#  My Contribution
 
 This project was developed using an **AI-assisted workflow**.
 
@@ -88,7 +88,7 @@ Artificial Intelligence accelerated the implementation while I remained responsi
 
 ---
 
-# 🚀 Main Features
+#  Main Features
 
 - Automated report processing
 - Business rule validation
@@ -142,7 +142,7 @@ Output Generation
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ### Dashboard
 
@@ -189,7 +189,7 @@ TOP AMBASSADORS PROJECT/
 
 The complete documentation describing how to install, configure and execute the application is available inside the project folder.
 
-📄 **TOP AMBASSADORS PROJECT/README.md**
+ **TOP AMBASSADORS PROJECT/README.md**
 
 ---
 
@@ -209,7 +209,7 @@ Developing this project strengthened my knowledge in:
 
 ---
 
-# 🎯 Future Improvements
+#  Future Improvements
 
 - Database integration
 - REST API
@@ -220,7 +220,7 @@ Developing this project strengthened my knowledge in:
 
 ---
 
-# 👋 About Me
+#  About Me
 
 I'm currently studying **Analysis and Systems Development (ADS)** while building projects focused on automation, data processing and software engineering.
 
@@ -242,7 +242,7 @@ This repository represents one of the largest projects I've developed so far and
 
 # 🇧🇷 Português
 
-# 📖 A História por Trás deste Projeto
+#  A História por Trás deste Projeto
 
 Durante minha experiência como Jovem Aprendiz na área de logística da **Amazon**, tive a oportunidade de participar de processos operacionais relacionados à avaliação de desempenho e reconhecimento de colaboradores.
 
@@ -258,22 +258,22 @@ Foi dessa pergunta que nasceu este projeto.
 
 ---
 
-# 🎯 Objetivo
+#  Objetivo
 
 O objetivo deste projeto foi recriar esse fluxo operacional em uma aplicação desktop capaz de automatizar tarefas repetitivas.
 
 A aplicação é responsável por:
 
-- 📊 Processar dados de desempenho
-- 🏆 Gerar rankings de colaboradores
-- 📑 Criar relatórios
-- 📧 Gerar e-mails em HTML
-- 📨 Produzir cartas de reconhecimento
-- ⚙️ Aplicar regras de negócio automaticamente
+-  Processar dados de desempenho
+-  Gerar rankings de colaboradores
+-  Criar relatórios
+-  Gerar e-mails em HTML
+-  Produzir cartas de reconhecimento
+-  Aplicar regras de negócio automaticamente
 
 ---
 
-# 🔒 Versão de Portfólio
+#  Versão de Portfólio
 
 Este repositório contém uma versão independente criada exclusivamente para fins de portfólio.
 
@@ -286,7 +286,7 @@ Para preservar a confidencialidade:
 
 ---
 
-# 👨‍💻 Minha Contribuição
+#  Minha Contribuição
 
 Este projeto foi desenvolvido utilizando um fluxo de trabalho assistido por Inteligência Artificial.
 
@@ -305,7 +305,7 @@ A Inteligência Artificial acelerou a implementação, enquanto todas as decisõ
 
 ---
 
-# 🚀 Principais Funcionalidades
+#  Principais Funcionalidades
 
 - Processamento automático de relatórios
 - Aplicação de regras de negócio
@@ -333,7 +333,7 @@ A Inteligência Artificial acelerou a implementação, enquanto todas as decisõ
 
 ---
 
-# 🏗 Arquitetura do Projeto
+#  Arquitetura do Projeto
 
 ```text
 Dados dos Colaboradores
