@@ -146,25 +146,25 @@ Output Generation
 
 ### Dashboard
 
-*(Add image here)*
+*(To be added later)*
 
 ---
 
 ### Ranking
 
-*(Add image here)*
+*(To be added later)*
 
 ---
 
 ### Generated Email
 
-*(Add image here)*
+*(To be added later)*
 
 ---
 
 ### Recognition Letter
 
-*(Add image here)*
+*(To be added later)*
 
 ---
 
