@@ -1,0 +1,7 @@
+﻿Defect Type,Process Path,Defect Count,Opportunities,DPMO/Percentage,Threshold
+Total Pick,Pick,25000,12000000,1200,-
+Total Sort,Sort,25000,12000000,1000,-
+Total Stow,Stow,25000,12000000,1500,-
+Total Ship,Ship,25000,12000000,900,-
+Total Receive,Receive,25000,12000000,1100,-
+Total Pack,Pack,26000,1900000,15807,-

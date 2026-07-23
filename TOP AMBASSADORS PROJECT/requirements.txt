@@ -1,0 +1,9 @@
+pandas>=2.0
+openpyxl>=3.1
+selenium>=4.10
+webdriver-manager>=4.0
+Pillow>=10.0
+
+# Somente no Windows (clipboard HTML e automacao do Excel).
+# O marcador abaixo faz o pip instalar apenas em Windows; em Linux/Mac e ignorado.
+pywin32>=306; sys_platform == "win32"

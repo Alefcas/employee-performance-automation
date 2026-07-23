@@ -1,0 +1,151 @@
+/* Site of Alefcas - estilo compartilhado (demo de portfolio) */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #eaeded;
+  color: #0f1111;
+}
+.topbar {
+  background: #131a22;
+  color: #fff;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 4px solid #ff9900;
+}
+.topbar .brand { font-weight: 700; font-size: 18px; }
+.topbar .brand span { color: #ff9900; }
+.topbar .env {
+  margin-left: auto;
+  font-size: 12px;
+  background: #ff9900;
+  color: #131a22;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+.demo-banner {
+  background: #fff3cd;
+  border-bottom: 1px solid #ffe08a;
+  color: #6a4b00;
+  font-size: 13px;
+  padding: 7px 18px;
+  text-align: center;
+}
+.wrap { max-width: 1080px; margin: 22px auto; padding: 0 18px; }
+.card {
+  background: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  padding: 22px 24px;
+  margin-bottom: 20px;
+}
+h1 { font-size: 22px; margin: 0 0 4px; }
+.sub { color: #565959; font-size: 13px; margin-bottom: 18px; }
+.filters { display: flex; flex-wrap: wrap; gap: 18px; margin-bottom: 18px; }
+.field { display: flex; flex-direction: column; font-size: 12px; }
+.field label { color: #565959; margin-bottom: 4px; font-weight: 600; }
+.field input, .field select {
+  border: 1px solid #888c8c;
+  border-radius: 4px;
+  padding: 6px 8px;
+  min-width: 150px;
+  background: #f7fafa;
+}
+.checks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 24px; margin: 10px 0 18px; font-size: 13px; }
+.checks label { display: flex; align-items: center; gap: 7px; }
+.btn {
+  background: #ff9900;
+  border: 1px solid #e88b00;
+  color: #131a22;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn:hover { background: #e88b00; }
+.btn.secondary { background: #fff; color: #131a22; border-color: #888c8c; }
+.btn-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+table { border-collapse: collapse; width: 100%; font-size: 12px; margin-top: 14px; }
+th, td { border: 1px solid #d5d9d9; padding: 6px 8px; text-align: left; }
+th { background: #232f3e; color: #fff; font-weight: 600; }
+tr:nth-child(even) td { background: #f7fafa; }
+.tabs { display: flex; gap: 4px; border-bottom: 2px solid #d5d9d9; margin-bottom: 16px; }
+.tab { padding: 8px 16px; cursor: pointer; font-size: 13px; border: 1px solid transparent; border-bottom: none; }
+.tab.active { background: #fff; border-color: #d5d9d9; border-bottom: 2px solid #fff; margin-bottom: -2px; font-weight: 700; color: #ff9900; }
+.hint { font-size: 12px; color: #565959; margin-top: 10px; }
+.footer { text-align: center; color: #565959; font-size: 12px; padding: 20px; }
+
+/* Checkboxes de Week (selecao de semanas no QuickSight) */
+.week-checks {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid #888c8c;
+  border-radius: 4px;
+  padding: 6px 10px;
+  min-width: 150px;
+  background: #f7fafa;
+}
+.week-checks label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: #0f1111;
+  font-weight: 600;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Icone de ajuda (?) com tooltip */
+.help {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+  border-radius: 50%;
+  background: #ff9900;
+  color: #131a22;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: help;
+  position: relative;
+  outline: none;
+}
+.help .help-tip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  position: absolute;
+  bottom: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  background: #131a22;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  padding: 9px 11px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+.help .help-tip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: #131a22;
+}
+.help:hover .help-tip,
+.help:focus .help-tip { visibility: visible; opacity: 1; }

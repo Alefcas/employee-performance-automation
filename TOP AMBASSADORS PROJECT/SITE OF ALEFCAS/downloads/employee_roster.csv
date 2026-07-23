@@ -1,0 +1,77 @@
+﻿Employee ID,User ID,Employee Name,Department ID,Employment Type,Employee Status,Manager Name
+900302,Ana Beatriz Souza,Ana Beatriz Souza,Turno Dia,EMPL1,Active,Ana Beatriz Souza
+900304,Bruno Carvalho Nunes,Bruno Carvalho Nunes,Turno Noite,EMPL2,Active,Bruno Carvalho Nunes
+900306,Camila Ferreira Rocha,Camila Ferreira Rocha,Turno Dia,EMPL3,Active,Camila Ferreira Rocha
+900308,Daniel Oliveira Costa,Daniel Oliveira Costa,Turno Noite,EMPL1,Active,Daniel Oliveira Costa
+900310,Elaine Martins Alves,Elaine Martins Alves,Turno Dia,EMPL2,Active,Elaine Martins Alves
+900312,Gabriela Santos Pinto,Gabriela Santos Pinto,Turno Noite,EMPL3,Active,Gabriela Santos Pinto
+900314,Henrique Alves Moreira,Henrique Alves Moreira,Turno Dia,EMPL1,Active,Henrique Alves Moreira
+900316,Isabela Costa Ramos,Isabela Costa Ramos,Turno Noite,EMPL2,Active,Isabela Costa Ramos
+900318,Joao Pedro Almeida,Joao Pedro Almeida,Turno Dia,EMPL3,Active,Joao Pedro Almeida
+900320,Carlos Mendes Lima,Carlos Mendes Lima,Turno Noite,EMPL1,Active,Carlos Mendes Lima
+900322,Fernanda Rocha Dias,Fernanda Rocha Dias,Turno Dia,EMPL2,Active,Fernanda Rocha Dias
+900324,Rafael Souza Barros,Rafael Souza Barros,Turno Noite,EMPL3,Active,Rafael Souza Barros
+900326,Eduardo Santos Melo,Eduardo Santos Melo,Turno Noite,EMPL1,Active,Eduardo Santos Melo
+900328,Patricia Lima Souza,Patricia Lima Souza,Turno Dia,EMPL2,Active,Patricia Lima Souza
+900330,Thiago Ferreira Dias,Thiago Ferreira Dias,Turno Noite,EMPL3,Active,Thiago Ferreira Dias
+900332,Diego Alves Pinto,Diego Alves Pinto,Turno Dia,EMPL1,Active,Diego Alves Pinto
+900334,Larissa Gomes Faria,Larissa Gomes Faria,Turno Noite,EMPL2,Active,Larissa Gomes Faria
+900336,Marcos Vinicius Rocha,Marcos Vinicius Rocha,Turno Dia,EMPL3,Active,Marcos Vinicius Rocha
+900338,Vanessa Ribeiro Cruz,Vanessa Ribeiro Cruz,Turno Dia,EMPL1,Active,Vanessa Ribeiro Cruz
+900341,anasouza1,Anasouza1 Demo,Turno Dia,EMPL2,Active,Ana Beatriz Souza
+900344,anasouza2,Anasouza2 Demo,Turno Dia,EMPL3,Active,Ana Beatriz Souza
+900347,anasouza3,Anasouza3 Demo,Turno Dia,EMPL1,Active,Ana Beatriz Souza
+900350,brunonun1,Brunonun1 Demo,Turno Noite,EMPL2,Active,Bruno Carvalho Nunes
+900353,brunonun2,Brunonun2 Demo,Turno Noite,EMPL3,Active,Bruno Carvalho Nunes
+900356,brunonun3,Brunonun3 Demo,Turno Noite,EMPL1,Active,Bruno Carvalho Nunes
+900359,camilarc1,Camilarc1 Demo,Turno Dia,EMPL2,Active,Camila Ferreira Rocha
+900362,camilarc2,Camilarc2 Demo,Turno Dia,EMPL3,Active,Camila Ferreira Rocha
+900365,camilarc3,Camilarc3 Demo,Turno Dia,EMPL1,Active,Camila Ferreira Rocha
+900368,danieloc1,Danieloc1 Demo,Turno Noite,EMPL2,Active,Daniel Oliveira Costa
+900371,danieloc2,Danieloc2 Demo,Turno Noite,EMPL3,Active,Daniel Oliveira Costa
+900374,danieloc3,Danieloc3 Demo,Turno Noite,EMPL1,Active,Daniel Oliveira Costa
+900377,elainema1,Elainema1 Demo,Turno Dia,EMPL2,Active,Elaine Martins Alves
+900380,elainema2,Elainema2 Demo,Turno Dia,EMPL3,Active,Elaine Martins Alves
+900383,elainema3,Elainema3 Demo,Turno Dia,EMPL1,Active,Elaine Martins Alves
+900386,gabrisp1,Gabrisp1 Demo,Turno Noite,EMPL2,Active,Gabriela Santos Pinto
+900389,gabrisp2,Gabrisp2 Demo,Turno Noite,EMPL3,Active,Gabriela Santos Pinto
+900392,gabrisp3,Gabrisp3 Demo,Turno Noite,EMPL1,Active,Gabriela Santos Pinto
+900395,henriqam1,Henriqam1 Demo,Turno Dia,EMPL2,Active,Henrique Alves Moreira
+900398,henriqam2,Henriqam2 Demo,Turno Dia,EMPL3,Active,Henrique Alves Moreira
+900401,henriqam3,Henriqam3 Demo,Turno Dia,EMPL1,Active,Henrique Alves Moreira
+900404,isabelcr1,Isabelcr1 Demo,Turno Noite,EMPL2,Active,Isabela Costa Ramos
+900407,isabelcr2,Isabelcr2 Demo,Turno Noite,EMPL3,Active,Isabela Costa Ramos
+900410,isabelcr3,Isabelcr3 Demo,Turno Noite,EMPL1,Active,Isabela Costa Ramos
+900413,joaopa1,Joaopa1 Demo,Turno Dia,EMPL2,Active,Joao Pedro Almeida
+900416,joaopa2,Joaopa2 Demo,Turno Dia,EMPL3,Active,Joao Pedro Almeida
+900419,joaopa3,Joaopa3 Demo,Turno Dia,EMPL1,Active,Joao Pedro Almeida
+900422,carloslm1,Carloslm1 Demo,Turno Noite,EMPL2,Active,Carlos Mendes Lima
+900425,carloslm2,Carloslm2 Demo,Turno Noite,EMPL3,Active,Carlos Mendes Lima
+900428,carloslm3,Carloslm3 Demo,Turno Noite,EMPL1,Active,Carlos Mendes Lima
+900431,fernrd1,Fernrd1 Demo,Turno Dia,EMPL2,Active,Fernanda Rocha Dias
+900434,fernrd2,Fernrd2 Demo,Turno Dia,EMPL3,Active,Fernanda Rocha Dias
+900437,fernrd3,Fernrd3 Demo,Turno Dia,EMPL1,Active,Fernanda Rocha Dias
+900440,rafaelsb1,Rafaelsb1 Demo,Turno Noite,EMPL2,Active,Rafael Souza Barros
+900443,rafaelsb2,Rafaelsb2 Demo,Turno Noite,EMPL3,Active,Rafael Souza Barros
+900446,rafaelsb3,Rafaelsb3 Demo,Turno Noite,EMPL1,Active,Rafael Souza Barros
+900449,edusm1,Edusm1 Demo,Turno Noite,EMPL2,Active,Eduardo Santos Melo
+900452,edusm2,Edusm2 Demo,Turno Noite,EMPL3,Active,Eduardo Santos Melo
+900455,edusm3,Edusm3 Demo,Turno Noite,EMPL1,Active,Eduardo Santos Melo
+900458,patrils1,Patrils1 Demo,Turno Dia,EMPL2,Active,Patricia Lima Souza
+900461,patrils2,Patrils2 Demo,Turno Dia,EMPL3,Active,Patricia Lima Souza
+900464,patrils3,Patrils3 Demo,Turno Dia,EMPL1,Active,Patricia Lima Souza
+900467,thiagofd1,Thiagofd1 Demo,Turno Noite,EMPL2,Active,Thiago Ferreira Dias
+900470,thiagofd2,Thiagofd2 Demo,Turno Noite,EMPL3,Active,Thiago Ferreira Dias
+900473,thiagofd3,Thiagofd3 Demo,Turno Noite,EMPL1,Active,Thiago Ferreira Dias
+900476,diegoap1,Diegoap1 Demo,Turno Dia,EMPL2,Active,Diego Alves Pinto
+900479,diegoap2,Diegoap2 Demo,Turno Dia,EMPL3,Active,Diego Alves Pinto
+900482,diegoap3,Diegoap3 Demo,Turno Dia,EMPL1,Active,Diego Alves Pinto
+900485,larissgf1,Larissgf1 Demo,Turno Noite,EMPL2,Active,Larissa Gomes Faria
+900488,larissgf2,Larissgf2 Demo,Turno Noite,EMPL3,Active,Larissa Gomes Faria
+900491,larissgf3,Larissgf3 Demo,Turno Noite,EMPL1,Active,Larissa Gomes Faria
+900494,marcosvr1,Marcosvr1 Demo,Turno Dia,EMPL2,Active,Marcos Vinicius Rocha
+900497,marcosvr2,Marcosvr2 Demo,Turno Dia,EMPL3,Active,Marcos Vinicius Rocha
+900500,marcosvr3,Marcosvr3 Demo,Turno Dia,EMPL1,Active,Marcos Vinicius Rocha
+900503,vanessrc1,Vanessrc1 Demo,Turno Dia,EMPL2,Active,Vanessa Ribeiro Cruz
+900506,vanessrc2,Vanessrc2 Demo,Turno Dia,EMPL3,Active,Vanessa Ribeiro Cruz
+900509,vanessrc3,Vanessrc3 Demo,Turno Dia,EMPL1,Active,Vanessa Ribeiro Cruz

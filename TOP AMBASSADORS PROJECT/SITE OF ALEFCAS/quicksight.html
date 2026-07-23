@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Learning Curve Dashboard | Site of Alefcas</title>
+<link rel="stylesheet" href="_estilo.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">Site of <span>Alefcas</span></div>
+  <div>Quick · Learning Curve Dashboard</div>
+  <div class="env">DEMO</div>
+</div>
+<div class="demo-banner">
+  Ambiente de demonstração — dados fictícios. Simula o dashboard de Produtividade (Rate por LC) que gera a planilha <b>dados_funcionarios</b>.
+</div>
+
+<div class="wrap">
+  <div class="card">
+    <h1>Rate dos Associados por Semana</h1>
+    <div class="sub">Considere a coluna <b>Rate na LC</b> para fins de auditoria (Rate Real / Expected LC).</div>
+
+    <div class="filters">
+      <div class="field"><label>FC</label><select><option>FC locale</option></select></div>
+      <div class="field">
+        <label>
+          Week
+          <span class="help" tabindex="0">?
+            <span class="help-tip">Para o relatório sair sem nenhuma divergência,
+            o recomendado é deixar as <b>3 semanas</b> (27, 28 e 29) selecionadas.</span>
+          </span>
+        </label>
+        <div class="week-checks">
+          <label><input type="checkbox" checked> 27</label>
+          <label><input type="checkbox" checked> 28</label>
+          <label><input type="checkbox" checked> 29</label>
+        </div>
+      </div>
+      <div class="field"><label>Year</label><select><option>2026</option></select></div>
+      <div class="field"><label>LC Level</label><select><option>LC1-LC3</option></select></div>
+      <div class="field"><label>Shift Pattern</label><select><option>Turno Dia, Turno Noite</option></select></div>
+    </div>
+
+    <div class="btn-row">
+      <a class="btn" href="downloads/dados_funcionarios.xlsx" download="dados_funcionarios.xlsx">⬇ Export to Excel</a>
+      <button class="btn secondary" type="button">Export to CSV</button>
+      <span class="hint">Clique em <b>Export to Excel</b> para baixar os dados e volte ao programa.</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr><th>FC</th><th>Week</th><th>Login</th><th>Shift Pattern</th><th>Process Name</th><th>LC Level</th><th>Units</th><th>Hours</th><th>Rate Real</th><th>Rate na LC</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>FC locale</td><td>29</td><td>fernrd1</td><td>Turno Dia</td><td>Pack Singles</td><td>LC1-LC3</td><td>2600</td><td>40.0</td><td>1.008</td><td>1.12</td></tr>
+        <tr><td>FC locale</td><td>29</td><td>rafaelsb1</td><td>Turno Noite</td><td>Pick</td><td>LC1-LC3</td><td>2600</td><td>40.0</td><td>1.008</td><td>1.12</td></tr>
+        <tr><td>FC locale</td><td>29</td><td>edusm1</td><td>Turno Noite</td><td>Sort</td><td>LC1-LC3</td><td>2600</td><td>40.0</td><td>0.675</td><td>0.75</td></tr>
+        <tr><td>FC locale</td><td>29</td><td>diegoap1</td><td>Turno Dia</td><td>Pick</td><td>LC1-LC3</td><td>2600</td><td>40.0</td><td>0.495</td><td>0.55</td></tr>
+        <tr><td>FC locale</td><td>29</td><td>vanessrc1</td><td>Turno Dia</td><td>Pick</td><td>LC1-LC3</td><td>2600</td><td>40.0</td><td>0.954</td><td>1.06</td></tr>
+        <tr><td colspan="10" style="text-align:center;color:#565959;">… demais registros no arquivo Excel (Turno Dia / Turno Noite) …</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="footer">Site of Alefcas · Portfólio · Reprodução fictícia do QuickSight</div>
+</div>
+</body>
+</html>

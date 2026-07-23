@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>ALEF Reporting | Site of Alefcas</title>
+<link rel="stylesheet" href="_estilo.css">
+<style>
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .proc-btns { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 14px; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">Site of <span>Alefcas</span></div>
+  <div>ATLAS · Metric Insights · Reporting</div>
+  <div class="env">DEMO</div>
+</div>
+<div class="demo-banner">
+  Ambiente de demonstração — dados fictícios. Simula um site de Defect Reporting usado para calcular a Qualidade (DPMO).
+</div>
+
+<div class="wrap">
+  <div class="card">
+    <h1>Reporting</h1>
+    <div class="sub">Warehouse ID: <b>FC locale</b> · Target Process: Combined · Período: 16/06 → 30/06/2026</div>
+
+    <div class="tabs">
+      <div class="tab active" onclick="showTab('totals', this)">Totals Reports</div>
+      <div class="tab" onclick="showTab('raw', this)">Raw Reports</div>
+    </div>
+
+    <!-- ================= TOTALS ================= -->
+    <div id="totals" class="panel active">
+      <div class="btn-row">
+        <a class="btn" href="downloads/atlas_totals_combined.csv" download>⬇ Download Totals (Combined)</a>
+        <a class="btn secondary" href="downloads/atlas_pack_single.csv" download>⬇ Pack · Single</a>
+        <a class="btn secondary" href="downloads/atlas_pack_multi.csv" download>⬇ Pack · Multi</a>
+      </div>
+      <p class="hint">Baixe o <b>Totals (Combined)</b>, depois <b>Pack Single</b> e <b>Pack Multi</b>, conforme o programa pedir.</p>
+      <table>
+        <thead><tr><th>Defect Type</th><th>Process Path</th><th>Defect Count</th><th>Opportunities</th><th>DPMO/Percentage</th><th>Threshold</th></tr></thead>
+        <tbody>
+          <tr><td>Total Pick</td><td>Pick</td><td>25.000</td><td>12.000.000</td><td>1.200 dpmo</td><td>-</td></tr>
+          <tr><td>Total Sort</td><td>Sort</td><td>25.000</td><td>12.000.000</td><td>1.000 dpmo</td><td>-</td></tr>
+          <tr><td>Total Stow</td><td>Stow</td><td>25.000</td><td>12.000.000</td><td>1.500 dpmo</td><td>-</td></tr>
+          <tr><td>Total Ship</td><td>Ship</td><td>25.000</td><td>12.000.000</td><td>900 dpmo</td><td>-</td></tr>
+          <tr><td>Total Receive</td><td>Receive</td><td>25.000</td><td>12.000.000</td><td>1.100 dpmo</td><td>-</td></tr>
+          <tr><td>Total Pack</td><td>Pack</td><td>26.000</td><td>1.900.000</td><td>15.807 dpmo</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ================= RAW ================= -->
+    <div id="raw" class="panel">
+      <p class="hint">Selecione o processo e clique em <b>Download</b> (o programa pede um de cada vez):</p>
+      <div class="proc-btns">
+        <a class="btn" href="downloads/atlas_raw_pack.csv" download>⬇ Pack</a>
+        <a class="btn" href="downloads/atlas_raw_pick.csv" download>⬇ Pick</a>
+        <a class="btn" href="downloads/atlas_raw_sort.csv" download>⬇ Sort</a>
+        <a class="btn" href="downloads/atlas_raw_stow.csv" download>⬇ Stow</a>
+        <a class="btn" href="downloads/atlas_raw_ship.csv" download>⬇ Ship</a>
+        <a class="btn" href="downloads/atlas_raw_receive.csv" download>⬇ Receive</a>
+      </div>
+      <table>
+        <thead><tr><th>User</th><th>Manager ID</th><th>Warehouse ID</th><th>Subprocess</th><th>Total Defects</th><th>Opportunities</th><th>DPMO</th></tr></thead>
+        <tbody>
+          <tr><td>anasouza1</td><td>mgralef</td><td>FC locale</td><td>Single</td><td>1</td><td>5.000</td><td>200</td></tr>
+          <tr><td>carloslm1</td><td>mgralef</td><td>FC locale</td><td>Single</td><td>10</td><td>5.000</td><td>2.000</td></tr>
+          <tr><td>vanessrc1</td><td>mgralef</td><td>FC locale</td><td>Single</td><td>8</td><td>5.000</td><td>1.600</td></tr>
+          <tr><td colspan="7" style="text-align:center;color:#565959;">… demais registros nos arquivos CSV por processo …</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="footer">Site of Alefcas · Portfólio · Reprodução fictícia</div>
+</div>
+
+<script>
+  function showTab(id, el) {
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    el.classList.add('active');
+  }
+</script>
+</body>
+</html>

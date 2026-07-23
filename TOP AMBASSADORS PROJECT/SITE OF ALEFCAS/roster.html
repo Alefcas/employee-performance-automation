@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Employee Roster | Site of Alefcas</title>
+<link rel="stylesheet" href="_estilo.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="brand">Site of <span>Alefcas</span></div>
+  <div>Site of Alefcas &nbsp;·&nbsp; Employee Roster</div>
+  <div class="env">DEMO</div>
+</div>
+<div class="demo-banner">
+  Ambiente de demonstração — todos os dados são fictícios. Employee Roster do Site of Alefcas (FC locale).
+</div>
+
+<div class="wrap">
+  <div class="card">
+    <h1>Employee Roster</h1>
+    <div class="sub">Warehouse ID: <b>FC locale</b> · Site of Alefcas Fulfillment</div>
+
+    <div class="filters">
+      <div class="field">
+        <label>Warehouse</label>
+        <select><option>FC locale</option></select>
+      </div>
+      <div class="field">
+        <label>Manager</label>
+        <input type="text" placeholder="(todos)">
+      </div>
+      <div class="field">
+        <label>Employee Status</label>
+        <select><option>Active</option><option>All</option></select>
+      </div>
+      <div class="field">
+        <label>Employee Type</label>
+        <select><option>EMPL1</option><option>EMPL2</option><option>EMPL3</option></select>
+      </div>
+    </div>
+
+    <div style="font-weight:600;margin-bottom:8px;">Select Columns</div>
+    <div class="checks">
+      <label><input type="checkbox" checked> Employee ID</label>
+      <label><input type="checkbox" checked> User ID</label>
+      <label><input type="checkbox" checked> Employee Name</label>
+      <label><input type="checkbox" checked> Department ID (Turno)</label>
+      <label><input type="checkbox" checked> Employment Type</label>
+      <label><input type="checkbox" checked> Employee Status</label>
+      <label><input type="checkbox" checked> Manager Name</label>
+      <label><input type="checkbox"> Badge Barcode ID</label>
+    </div>
+
+    <div class="btn-row">
+      <a class="btn" href="downloads/employee_roster.csv" download="employee_roster.csv">⬇ CSV</a>
+      <button class="btn secondary" type="button">HTML</button>
+      <span class="hint">Clique em <b>CSV</b> para baixar o roster e volte ao programa.</span>
+    </div>
+
+    <table>
+      <thead>
+        <tr><th>Employee ID</th><th>User ID</th><th>Employee Name</th><th>Department ID (Turno)</th><th>Employment Type</th><th>Employee Status</th><th>Manager Name</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>900305</td><td>anasouza1</td><td>Anasouza1 Demo</td><td>Turno Dia</td><td>EMPL1</td><td>Active</td><td>Ana Beatriz Souza</td></tr>
+        <tr><td>900308</td><td>brunonun1</td><td>Brunonun1 Demo</td><td>Turno Noite</td><td>EMPL2</td><td>Active</td><td>Bruno Carvalho Nunes</td></tr>
+        <tr><td>900311</td><td>camilarc1</td><td>Camilarc1 Demo</td><td>Turno Dia</td><td>EMPL3</td><td>Active</td><td>Camila Ferreira Rocha</td></tr>
+        <tr><td>900314</td><td>carloslm1</td><td>Carloslm1 Demo</td><td>Turno Noite</td><td>EMPL1</td><td>Active</td><td>Carlos Mendes Lima</td></tr>
+        <tr><td>900317</td><td>fernrd1</td><td>Fernrd1 Demo</td><td>Turno Dia</td><td>EMPL2</td><td>Active</td><td>Fernanda Rocha Dias</td></tr>
+        <tr><td>900320</td><td>diegoap1</td><td>Diegoap1 Demo</td><td>Turno Dia</td><td>EMPL3</td><td>Active</td><td>Diego Alves Pinto</td></tr>
+        <tr><td colspan="7" style="text-align:center;color:#565959;">… demais registros no arquivo CSV (2 turnos: Turno Dia / Turno Noite) …</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="footer">Site of Alefcas · Portfólio · Employee Roster (demo)</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿User,Manager ID,Warehouse ID,Subprocess,totalDefects,Opportunities,DPMO/Percentage
+brunonun1,mgralef,FC locale,Single,1,5000,200.0
+brunonun2,mgralef,FC locale,Single,1,5000,200.0
+brunonun3,mgralef,FC locale,Single,1,5000,200.0
+gabrisp1,mgralef,FC locale,Single,4,5000,800.0
+gabrisp2,mgralef,FC locale,Single,4,5000,800.0
+gabrisp3,mgralef,FC locale,Single,4,5000,800.0

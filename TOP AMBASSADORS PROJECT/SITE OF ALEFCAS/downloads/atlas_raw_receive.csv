@@ -1,0 +1,7 @@
+﻿User,Manager ID,Warehouse ID,Subprocess,totalDefects,Opportunities,DPMO/Percentage
+danieloc1,mgralef,FC locale,Single,1,5000,200.0
+danieloc2,mgralef,FC locale,Single,1,5000,200.0
+danieloc3,mgralef,FC locale,Single,1,5000,200.0
+isabelcr1,mgralef,FC locale,Single,4,5000,800.0
+isabelcr2,mgralef,FC locale,Single,4,5000,800.0
+isabelcr3,mgralef,FC locale,Single,4,5000,800.0

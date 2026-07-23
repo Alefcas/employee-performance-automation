@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos temporarios do Excel
+~$*.xlsx
+*.bak.xlsx
+
+# Saidas geradas em tempo de execucao (regeneraveis)
+2. RECURSOS/resultado_completo.xlsx
+2. RECURSOS/ranking_final.xlsx
+2. RECURSOS/rc_cret.xlsx
+
+# Fotos baixadas
+**/fotos_embaixadores/
