@@ -25,19 +25,29 @@
 
 # 🇺🇸 English
 
-#  The Story Behind This Project
+# The Story Behind This Project
 
-During my internship in the logistics area at **Amazon**, I had the opportunity to work closely with operational workflows related to employee performance evaluation and recognition.
+During my internship in the **Logistics department at Amazon**, I had the opportunity to work closely with operational workflows related to employee performance evaluation and recognition.
 
-Every cycle involved collecting information from multiple systems, processing spreadsheets, applying business rules, generating rankings, preparing recognition letters and creating email communications.
+Each cycle required accessing multiple systems, processing spreadsheets, applying business rules, generating rankings, preparing recognition letters and creating email communications.
 
-Although the process followed a clear workflow, many of these tasks were repetitive and time-consuming.
+Although the workflow was well defined, many of these activities were repetitive, time-consuming and required a high level of attention to detail.
 
-As I became increasingly interested in software development, I started asking myself:
+As my interest in software development grew, I started asking myself:
 
-> **"Could this entire workflow be automated?"**
+> **"What if this entire workflow could be automated?"**
 
-That question became the starting point of this project.
+That observation became the inspiration for this portfolio project.
+
+Throughout its development, my goal was to transform a complex operational workflow into an application capable of automating tasks that were previously performed manually, reducing execution time, minimizing human error and improving overall efficiency.
+
+This project was developed using **Kiro**, an AI-assisted software development platform.
+
+Rather than manually writing every line of code, I used Kiro to accelerate the implementation process. My primary responsibility was to design the system architecture, define the business rules, structure the application's modules, design the complete workflow, create the prompts used throughout development, validate every implemented feature, and continuously test, debug and refine the solution.
+
+In other words, Artificial Intelligence was used as a development accelerator, while all technical decisions, business logic, validation and overall solution quality remained my responsibility.
+
+This repository represents that journey and demonstrates how software engineering, process automation and Artificial Intelligence can work together to solve real-world operational challenges efficiently.
 
 ---
 
@@ -254,12 +264,17 @@ Embora o fluxo de trabalho fosse bem definido, muitas dessas atividades eram rep
 
 > **"E se todo esse processo pudesse ser automatizado?"**
 
-Foi dessa ideia que nasceu este projeto.
+Essa observação tornou-se a inspiração para este projeto de portfólio.
 
-Ao longo do desenvolvimento, procurei transformar um fluxo operacional complexo em uma aplicação capaz de executar tarefas que antes eram realizadas manualmente, reduzindo tempo de execução, minimizando erros e tornando todo o processo muito mais eficiente.
+Ao longo do desenvolvimento, meu objetivo foi transformar um fluxo operacional complexo em uma aplicação capaz de executar automaticamente tarefas que antes eram realizadas manualmente, reduzindo o tempo de execução, minimizando erros e tornando todo o processo mais eficiente.
 
-Este repositório representa essa jornada e demonstra como a tecnologia pode ser utilizada para otimizar processos de negócio através da automação.
+Este projeto foi desenvolvido utilizando a **Kiro**, uma plataforma de desenvolvimento assistido por Inteligência Artificial.
 
+Em vez de escrever manualmente cada linha de código, utilizei a Kiro para acelerar a implementação da solução. Minha principal responsabilidade foi projetar a arquitetura da aplicação, definir as regras de negócio, estruturar os módulos do sistema, desenhar todo o fluxo operacional, elaborar os prompts utilizados durante o desenvolvimento, validar cada funcionalidade implementada e realizar testes, correções e refinamentos contínuos.
+
+Em outras palavras, a Inteligência Artificial foi utilizada como uma ferramenta para acelerar o desenvolvimento, enquanto todas as decisões relacionadas ao funcionamento da aplicação, lógica de negócio, validação e qualidade da solução permaneceram sob minha responsabilidade.
+
+Este repositório representa essa jornada e demonstra como automação, engenharia de software e Inteligência Artificial podem trabalhar em conjunto para resolver problemas reais de forma eficiente.
 ---
 
 # Objetivo
